@@ -100,7 +100,7 @@
 	text-align: center
 	align-content: center
 	padding: $gutter
-	font-style: 20px
+	font-size: 20px
 	font-weight: bold
 	color: #ffffff
 	position: relative
@@ -135,7 +135,7 @@
 	padding: $gutter $gutter 50px
 
 .container
-	min-width: 1200px
+	max-width: 1200px
 	margin: auto
 	padding: 0 $gutter
 
@@ -241,4 +241,25 @@ input, textarea
 				top: 20px
 				bottom: 0
 
-@import "media" // Всегда в конце
+.main-footer
+	padding: 60px 0
+	background-color: darken($dark, 8%)
+	text-align: center
+	color: #4e5355
+
+.footer-logo
+	font-family: intro-grid, sans-serif
+	font-size: 22px
+	line-height: 1.16
+	span
+		display: block
+		color: #707476
+		font-size: 26.8px
+		
+.footer-copy
+	font-size: 20px
+	font-weight: bold
+	color: #494d50
+	margin-top: 20px
+
+@import "media"
